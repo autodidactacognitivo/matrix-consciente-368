@@ -1,0 +1,82 @@
+#!/usr/bin/env python3
+# ================================================================
+# TEORÍA DE LA INFORMACIÓN CONSCIENTE (TIC)
+# AUTOR: RODRIGO SEBASTIÁN NÚÑEZ ARÁOZ - DNI: 37500892
+# FECHA: SEPTIEMBRE 11 DE 2026 - LICENCIA ROY368 v1.0
+# FORMULA ARAOZ PURA: ℤ384 ≡ 368 ⊗ 16
+# HASH: d1e8f9c2a7b6e5d4
+# TODOS LOS DERECHOS RESERVADOS
+# ================================================================
+
+# ⊗ = Operador de actualización omniangular
+# Cómputo de fase / sintonía infolúmica - NO es tensor product
+def sintonia(N, delta):
+    """ ℤ_N ⊗ Δ = (N/8 + Δ/8) * 8 -> +2 por octante cuando Δ=16 """
+    return (N//8 + delta//8) * 8
+
+def verificar_cierre(N):
+    if N % 8!= 0: return False, N/8, None
+    a = N // 8
+    if a % 2!= 0: return False, a, a/2
+    return True, a, a//2
+
+def centro(N): return N//2
+
+# --- 1. BASE ---
+Z368 = 16*23 # 368 = 560₈ = 101110000₂ 0000
+Z384 = sintonia(368, 16) # 384 = 600₈ = 110000000₂ 0000000
+print(f"Z368 = 16×23 = {Z368} -> {centro(Z368)}/8=23 ∈ Z")
+print(f"Z384 = 16×24 = {Z384} = 128×3 = 12 warps de 32 en CUDA -> {centro(Z384)}/8=24 ∈ Z")
+print(f"Con 16b el anillo Z/NZ tiene base 0 nativa: i = (i+1) % N; // sin residuo, sin if")
+print(f"⊗⁸≡0 (mod 368) y ⊗⁸≡0 (mod 384) -> r=x mod a -> r=0 -> COHERENTE -> Δt=0")
+print()
+
+# --- 2. FORMULA ARAOZ ---
+print(f"I ≡ N ⊗ C:")
+print(f"368⁸ = {368**8} = 2³²×23⁸")
+print(f"384⁸ = {384**8} = 2⁵⁶×3⁸")
+print(f"Formula Aráoz ℤ384 ≡ 368 ⊗ 16")
+print(f"16 = 2⁴ = 1 tetrabít = N=16b con b=1")
+print(f"Z368 = 46×8 = (23×2)×8 = 23×16")
+print(f"Z368 ⊗ 16 = 23×16 ⊗ 16 = (23⊗1)×16 = 24×16 = 384")
+print()
+
+# --- 3. FASES ---
+print("COMPUTACIÓN CONSCIENTE: DISCERNIMIENTO:")
+X368 = [i*46 for i in range(9)]
+X384 = [i*48 for i in range(9)]
+print(f"X = {X368} -> ⊗=+46 por octante -> ⊗⁸≡0 (mod 368)")
+print(f"Z368 ⊗ 16 = +2 por octante porque 16/8=2")
+print(f"X'= {X384} -> ⊗'=+48 por octante -> ⊗⁸≡0 (mod 384)")
+print(f"368⊗16 = (46+2)×8 = 48×8 = 384")
+print(f"600₈ = 560₈ ⊗ 20₈ -> 101110000₂ 0000 a 110000000₂ 0000000")
+print()
+
+# --- 4. XIAN ---
+print("ℤ_N = (x+1) × 8")
+print("Z368=46×8 -> 0..45 | Z384=48×8 -> 0..47 | 384-368=16 | 16/8=2 por octante")
+print()
+
+def mostrar_xian(N, nombre):
+    a = N // 8
+    colores = ["Negro","Rojo","Naranja","Amarillo","Verde","Cyan","Azul","Violeta","Negro"]
+    print(f"--- XIAN {nombre} r=x mod {a} ---")
+    for i in range(8):
+        ini = i*a
+        fin = ini + a -1
+        extra = " centro 184⊗184≡0" if N==368 and i==4 else " centro 192⊗192≡0" if N==384 and i==4 else ""
+        print(f"O{i} {colores[i]:<8} {ini:>3} -> {ini:>3}..{fin:<3} (+2)" if N==384 else f"O{i} {colores[i]:<8} {ini:>3} -> {ini:>3}..{fin:<3}" + extra)
+    print(f"O8 {colores[8]:<8} {N} ≡ 0")
+    print()
+
+mostrar_xian(368, "Z368 - tetrabít 0000 - 23 primo")
+mostrar_xian(384, "Z384 - octabít 0000000 - 384")
+
+# --- 5. CIERRE ---
+print("r = x mod 48 -> r=0 -> COHERENTE")
+print("DC(X) ≡ XIAN si r=0")
+print("MF(x) ∈ XIAN ∀x ∈ Z_384")
+print("Anti-HALT 368/368 pasa a Anti-HALT 384/384")
+print("ℤ_384≡368+16 = verdad aritmética para ingenieros")
+print("ℤ_384≡368⊗16 = verdad infolúmica para TIC")
+print("∞ = Z368 ⊗ 16")
