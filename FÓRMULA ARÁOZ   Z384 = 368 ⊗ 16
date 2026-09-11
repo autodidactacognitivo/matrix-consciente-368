@@ -1,0 +1,160 @@
+TEORÍA DE LA INFORMACIÓN CONSCIENTE ( TIC)
+AUTOR: RODRIGO SEBASTIÁN NÚÑEZ , AUTO-IDENTIFICADO COMO RODRIGO SEBASTIÁN NÚÑEZ ARÁOZ.
+DNI: 37500892.
+FECHA: SEPTIEMBRE 11 DE 2026.
+LICENCIA ROY368 v1.0
+TODOS LOS DERECHOS RESERVADOS.
+
+
+Z368 = 16×23 = 368 → 184/8=23 ∈ Z
+Z384 = 16×24 = 384 = 128×3 = 12 warps de 32 en CUDA → 192/8=24 ∈ Z
+
+Con 16b el anillo Z/NZ tiene base 0 nativa
+
+i = (i+1) % N; // sin residuo, sin if
+
+No hay emulación. ⊗⁸ ≡ 0 (mod 368) y ⊗⁸ ≡ 0 (mod 384) → r = x mod 46 o mod 48 → r=0 → COHERENTE → Δt=0.
+
+I ≡ N ⊗ C:
+368⁸ = 336.343.120.699.432.370.176 = 2³²×23⁸
+384⁸ = 472.769.874.482.845.188.096 = 2⁵⁶×3⁸
+
+
+368⁸ es el corazón matemático con 23 primo.
+384⁸  
+
+Formula Aráoz 
+ℤ384 ≡ 368 ⊗ 16
+
+368 actualizado omniangularmente por 16
+
+⊗ = Operador de actualización omniangular. Cómputo de fase, sintonía infolúmica.
+
+I ≡ N ⊗ C
+IC ≡ C ⊗ ∞
+
+16 = 2⁴ = 1 tetrabít = N=16b con b=1
+
+
+Entonces:
+
+Z368 = 46×8 = (23×2)×8 = 23×16
+Z368 ⊗ 16 = 23×16 ⊗ 16 = (23⊗1)×16 = 24×16 = 384
+
+En fases TIC
+COMPUTACIÓN CONSCIENTE: DISCERNIMIENTO:
+
+X = 0,46,92,138,184,230,276,322,368
+⊗ = +46 por octante → ⊗⁸ ≡ 0 (mod 368)
+
+Z368 ⊗ 16 =  +2 por octante porque 16/8=2
+
+X' = 0,48,96,144,192,240,288,336,384
+
+⊗' = +48 por octante → ⊗⁸ ≡ 0 (mod 384)
+
+Por eso:
+
+368 ⊗ 16 = (46+2)×8 = 48×8 = 384
+600₈ = 560₈ ⊗ 20₈ → de 101110000₂ 0000 a 110000000₂ 0000000
+
+r = x mod 48 → r=0 → COHERENTE
+DC(X) ≡ XIAN si r=0
+MF(x) ∈ XIAN ∀x ∈ Z_384
+184⊗184≡0 pasa a 192⊗192≡0
+Anti-HALT 368/368 pasa a Anti-HALT 384/384
+I ≡ N ⊗ C = 384⁸ = 472.769.874.482.845.188.096 = 2⁵⁶×3⁸
+
+
+ℤ_384 ≡ 368 + 16 = verdad aritmética, para ingenieros.
+ℤ_384 ≡ 368 ⊗ 16 = verdad infolúmica, para TIC.
+
+No sumás, sintonizás.
+
+Por eso es: 
+
+ ∞ = Z368 ⊗ 16.
+
+
+
+-------
+
+ℤ_N = (x+1) × 8
+
+ℤ368 = 46 × 8 → x+1 = 46 valores por octante → 0..45 • ℤ384 = 48 × 8 → x+1 = 48 valores por octante → 0..47
+
+Diferencia
+
+384 - 368 = 16
+16 / 8 octantes = 2 por octante
+
+Por eso:
+
+ℤ384 ≡ 368 ⊗ 16 = (46 + 2) × 8 = 48 × 8
+
++2 por octante es  ⊗16
+
+
+560₈ = 46 → 101110000₂ → 0000 (4 ceros)
+600₈ = 48 → 110000000₂ → 0000000 (7 ceros)
+
+
+Pasás de tetrabít a octabít completo porque le agregás 2 valores a cada uno de los 8 agentes. No le agregás 16 a un solo agente, lo sintonizás omniangularmente:
+
+O0: 0..45 → 0..47 (+2)
+O1: 46..91 → 48..95 (+2)
+...
+O7: 322..367 → 336..383 (+2)
+
+Por eso ⊗ y no +. +16 suena a suma. ⊗16 es 2 de fase por octante → ⊗⁸ ≡ 0 (mod 384) sigue cerrando con r = x mod 48 → r=0 COHERENTE.
+
+16 = 2 × 8 = 2⁴ = 1 tetrabít = b=1 de mi  familia Aráoz 16b.
+
+
+
+
+Con ℤ384 ≡ 368 ⊗ 16 los  8 XIAN quedan así - mismo color, pero con 48 valores por octante en vez de 46:
+
+
+Con Z368 era r = x mod 46:
+
+O0 Negro   0    -> 0..45
+O1 Blanco    46   -> 46..91
+O2 Rojo  92   -> 92..137
+O3 Naranja 138 -> 138..183
+O4 Amarillo   184  -> 184..229  centro 184⊗184≡0
+O5 Verde   230  -> 230..275
+O6 Azul    276  -> 276..321
+O7 Violeta 322  -> 322..367
+O8 Negro   368 ≡ 0
+
+
+Con Z384 = 368 ⊗ 16 = +2 por octante, r = x mod 48:
+
+
+O0 Negro   0    -> 0..47     (+2)
+O1 Blanco    48   -> 48..95    (+2)
+O2 Rojo 96   -> 96..143   (+2)
+O3 Naranja 144 -> 144..191  (+2)
+O4 Amarillo   192  -> 192..239  centro 192⊗192≡0
+O5 Verde    240  -> 240..287  (+2)
+O6 Azul    288  -> 288..335  (+2)
+O7 Violeta 336  -> 336..383  (+2)
+O8 Negro   384 ≡ 0
+
+
+COMPUTACIÓN CONSCIENTE: DISCERNIMIENTO
+
+DC(X) ≡ XIAN, SI r=0
+MF(x) ∈ XIAN, ∀x ∈ Z_384
+
+X = 0,48,96,144,192,240,288,336,384 → ⊗' = +48 por octante → ⊗⁸ ≡ 0 (mod 384)
+
+
+
+368 = 46×8 = 23 primo con 0000.
+
+
+384 = 48×8 = 600₈ = 110000000₂ → 0000000 octabít completo.
+
+Todos los derechos reservados
