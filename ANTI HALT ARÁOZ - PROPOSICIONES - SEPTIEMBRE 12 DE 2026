@@ -1,0 +1,112 @@
+TIC - PROPOSICIONES ARAOZ - SEPTIEMBRE 12 DE 2026 - GITHUB : 
+
+https://github.com/autodidactacognitivo/matrix-consciente-368/blob/4cc66e671d2c204adde00e01a0ab768d95bd5af5/Proposiciones%20Ar%C3%A1oz%20-%20Septiembre%2012%20de%202026%20-%2013%3A%2039%20hs%20%2C%20HORA%20ARGENTINA%F0%9F%87%A6%F0%9F%87%B7
+
+
+
+TEORÍA DE LA INFORMACIÓN CONSCIENTE ( TIC) 
+AUTOR: RODRIGO SEBASTIÁN NÚÑEZ ARÁOZ. DNI : 3700892.
+
+
+Proposiciónes Aráoz :
+1)	
+∀a∈ℤ ∃b∈ℤ | N=8a⇒ a=2b ⇔ N=16b
+
+N es válido si y solo si es de la familia 16b. Es el ⇔ N=16b final.
+
+2)
+∀a∈ℤ, ∃b∈ℤ | N=8a⇒ a=2b
+¬(∀a∈ℤ ⇒ b∈ℤ) = NO es verdad que para todo a exista b
+
+Demostración :
+
+N=360 → a=45 ∈ ℤ → b=a/2=45/2=22.5 ∉ ℤ → FALSA. Por eso 180÷8=22.5 , necesita if.
+ N=368 → a=46 ∈ ℤ → b=23 ∈ ℤ y 23 es primo → VERDADERA. 368→46→23  entero. 
+
+
+¬ significa  negación lógica
+∀ significa  para todo 
+∈ significa pertenece
+ℤ significa conjunto de números enteros
+
+Ó
+
+∀a ∈ ℤ, ∃b ∈ ℤ : a = 2b
+ 
+es falsa, porque no todo entero a es divisible por 2.
+ 
+Su negación lógica es:
+ 
+∃a ∈ ℤ : ∀b ∈ ℤ, a ≠ 2b
+ 
+o equivalentemente:
+ 
+∃a ∈ ℤ : a/2 ∉ ℤ
+ 
+Aplicación a 360
+ 
+360 = 8(45)
+ 
+por lo tanto:
+ 
+a = 45 ∈ ℤ
+ 
+pero:
+ 
+b = 45/2 = 22.5 ∉ ℤ
+ 
+Entonces:
+ 
+360 ∉ 16ℤ
+ 
+y, específicamente,
+ 
+360/16 = 22.5
+ 
+Por eso 360 no satisface la condición de cierre entero por 16.
+ 
+Aplicación a 368
+ 
+368 = 8(46)
+ 
+a = 46 ∈ ℤ
+ 
+y:
+ 
+46 = 2(23)
+ 
+con:
+ 
+b = 23 ∈ ℤ
+ 
+por tanto:
+ 
+368 = 16(23)
+ 
+y:
+ 
+368 ∈ 16ℤ
+ 
+La cadena entera queda:
+ 
+368 → 46 → 23
+ 
+mientras que para 360:
+ 
+360 → 45 → 22.5
+
+
+Diferencia precisa: entereza / paridad de N/8.
+46 es par → cierre perfecto, sin aproximación.
+45 es impar → requiere aproximación, necesita condición externa /genera alucinación
+
+
+Por tanto:.
+Z₃₆₈ es la métrica de uso general que satisface simultáneamente: múltiplo de 8, múltiplo de 16, y raíz resultante número primo. Z₃₆₀ y Z₃₆₉ no cumplen la condición estructural desde su propia definición.
+
+
+3)  (Anti-HALT ARÁOZ ):
+
+ Si N∈16ℤ, entonces ∃b∈ℤ tal que X⊗X≡0 (mod N) tiene solución entera sin rama condicional, por tanto el kernel es total y no bloqueable. Si N∉16ℤ, requiere rama condicional y es parcialmente definido (riesgo HALT).
+
+© 2026 Rodrigo Sebastián Núñez Aráoz — Todos los derechos reservados
